@@ -7,7 +7,7 @@ As far (as of 2022/05/06), the `conda skeleton <package-name> pypi` is not worki
 
 There has already been [some discussion](https://github.com/conda/conda-build/issues/4354) on this issue.
 
-I need to improve concerning both causes. But given that Python 3.6 is not compatible with ARM chips, it doesn't work in a local environment. Therefore, it is necessary to work around this by running it on a Linux container on an AMD chip.
+We need to improve concerning both causes. But given that Python 3.6 is not compatible with ARM chips, it doesn't work in a local environment. Therefore, it is necessary to work around this by running it on a Linux container on an AMD chip.
 
 Furthermore, even if you could run it if the project name contains hyphens, `conda skeleton <package-name> pypi` will not work correctly, depending on the Github repository name.
 
