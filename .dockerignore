@@ -1,0 +1,4 @@
+docker-*.sh
+*.ipynb
+examples/*
+_config.sh
