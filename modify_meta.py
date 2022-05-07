@@ -1,6 +1,8 @@
-from curses import meta
+'''
+Copyright (c) 2022 yu9824
+'''
+
 import re
-# import requests
 import os
 
 def replace_meta(fpath_meta, fpath_out=None):
