@@ -1,5 +1,6 @@
 /output/*
 !/output/.gitkeep
+/meta.yaml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -30,7 +30,7 @@ sh docker-run.sh
 ## After running container
 
 ```bash
-sh conda-build.sh
+sh conda-build.sh <package-name>
 ```
- <package-name>
+
 After the script is complete, you can get `meta.yaml` in the `output` directory, which binds to the container.
