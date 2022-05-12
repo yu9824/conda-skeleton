@@ -49,6 +49,7 @@ def replace_meta(fpath_meta, fpath_out=None):
     metadata_replaced = re.sub(r'(- python)', '\\1 >=3.6', metadata_replaced)            # to upload conda-forge
     metadata_replaced = re.sub(r'\s*doc_url:\s*?\n', '\n', metadata_replaced)  # to upload conda-forge
     metadata_replaced = re.sub(r'(\s*dev_url:\s*?)\n', '\\1https://github.com/yu9824/{{ dirname }}\n', metadata_replaced)  # to upload conda-forge
+    metadata_replaced = re.sub(r'(-\s*matplotlib)', '\\1-base', metadata_replaced)  # to upload conda-forge
 
     
     if fpath_out is None:
